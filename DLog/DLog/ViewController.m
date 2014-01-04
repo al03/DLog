@@ -26,7 +26,8 @@
     // Dispose of any resources that can be recreated.
 }
 - (IBAction)btnClick:(id)sender {
-    
+    DLog(@"Click Button %@",sender);
+    NSLog(@"Click Button %@",sender);
 }
 
 @end
