@@ -7,8 +7,8 @@ go to the group `Support Files`, select `**-Prefix.pch`, add
 ```
 #ifdef DEBUG
 
-#	define DLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
-#	define pwd printf("%s %d\n", __PRETTY_FUNCTION__, __LINE__);
+#define DLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#define pwd printf("%s %d\n", __PRETTY_FUNCTION__, __LINE__);
 #define debug_object( arg ) debug( @"Object: %@", arg );
 #define debug_int( arg ) debug( @"integer: %i", arg );
 #define debug_float( arg ) DLog( @"float: %f", arg );
@@ -18,7 +18,7 @@ go to the group `Support Files`, select `**-Prefix.pch`, add
 
 #else
 
-#	define DLog(...)
+#define DLog(...)
 
 #endif
 ```
