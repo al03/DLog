@@ -1,6 +1,6 @@
 DLog
 ====
-How to use
+###  How to use
 ====
 go to the group `Support Files`, select `**-Prefix.pch`, add
 
