@@ -2,7 +2,7 @@ DLog
 ====
 ###  How to use
 ====
-go to the group `Support Files`, select `**-Prefix.pch`, add
+Go to the group `Support Files`, select `**-Prefix.pch`, add
 
 ```
 #ifdef DEBUG
